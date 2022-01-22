@@ -125,6 +125,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton.Toolkit.Suite.Exten
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton.Toolkit.Suite.Extended.Wizard 2022", "..\..\..\Extended-Toolkit\Source\Krypton Toolkit\Krypton.Toolkit.Suite.Extended.Wizard\Krypton.Toolkit.Suite.Extended.Wizard 2022.csproj", "{0504A52D-991B-47CD-AF8A-43EC1BD3B9E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Items", "Repository Items", "{9DCCB4C2-BEB8-4BF3-B7AE-14BE6DF0C625}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{A793B59F-63D0-4E00-9D1D-03A8F05F2D2E}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Canary|Any CPU = Canary|Any CPU
@@ -788,6 +795,7 @@ Global
 		{0E2899EB-3FD9-4E23-A454-495E4688E0C0} = {2A8C324D-D321-4FB4-9D4B-A01C71B9A0B8}
 		{550295F2-EBC1-4F01-A8AA-0B1B360A6DBB} = {2A8C324D-D321-4FB4-9D4B-A01C71B9A0B8}
 		{0504A52D-991B-47CD-AF8A-43EC1BD3B9E8} = {2A8C324D-D321-4FB4-9D4B-A01C71B9A0B8}
+		{A793B59F-63D0-4E00-9D1D-03A8F05F2D2E} = {9DCCB4C2-BEB8-4BF3-B7AE-14BE6DF0C625}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAE0C18D-9273-41E7-9446-7E5F9FA2074A}
