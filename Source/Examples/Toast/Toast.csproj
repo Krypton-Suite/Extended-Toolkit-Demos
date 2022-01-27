@@ -13,13 +13,18 @@
     <Content Include="Stable.ico" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Krypton.Toolkit.Canary" Version="60.22.1.17-beta" />
-  </ItemGroup>
-
-	<!--<ItemGroup>
-		<ProjectReference Include="..\..\..\Extended-Toolkit\Source\Krypton Toolkit\Krypton.Toolkit.Suite.Extended.Toast\Krypton.Toolkit.Suite.Extended.Toast 2022.csproj" />
-	</ItemGroup>-->
+	<Choose>
+		<When Condition="'$(SolutionName.Endswith(`NuGet`))'">
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Suite.Extended.Toast.Canary" Version="60.22.1.27-beta" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup>
+				<ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.Toast\Krypton.Toolkit.Suite.Extended.Toast 2022.csproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
 
   <ItemGroup>
     <None Update="License\License.txt">

@@ -12,9 +12,18 @@
     <Content Include="Stable.ico" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.TreeGridView\Krypton.Toolkit.Suite.Extended.TreeGridView 2022.csproj" />
-  </ItemGroup>
+	<Choose>
+		<When Condition="'$(SolutionName.Endswith(`NuGet`))'">
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Suite.Extended.TreeGridView.Canary" Version="60.22.1.27-beta" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup>
+				<ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.TreeGridView\Krypton.Toolkit.Suite.Extended.TreeGridView 2022.csproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
 
   <ItemGroup>
     <Reference Include="System.Design" />
@@ -27,7 +36,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krypton.Toolkit.Canary" Version="60.22.1.17-beta" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115.5" />
   </ItemGroup>
 

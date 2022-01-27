@@ -12,8 +12,17 @@
     <Content Include="Stable.ico" />
   </ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.Data.Visualisation\Krypton.Toolkit.Suite.Extended.Data.Visualisation 2022.csproj" />
-	</ItemGroup>
+	<Choose>
+		<When Condition="'$(SolutionName.Endswith(`NuGet`))'">
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Suite.Extended.Data.Visualisation.Canary" Version="60.22.1.27-beta" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup>
+				<ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.Data.Visualisation\Krypton.Toolkit.Suite.Extended.Data.Visualisation 2022.csproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
 
 </Project>
