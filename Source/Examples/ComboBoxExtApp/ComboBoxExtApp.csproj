@@ -13,9 +13,18 @@
       <Content Include="Stable.ico" />
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Krypton.Toolkit.Canary" Version="60.22.1.17-beta" />
-    </ItemGroup>
+	<Choose>
+		<When Condition="'$(SolutionName.Endswith(`NuGet`))'">
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Suite.Extended.ComboBox.Canary" Version="60.22.1.27-beta" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup>
+				<ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.ComboBox\Krypton.Toolkit.Suite.Extended.ComboBox 2022.csproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
 
     <ItemGroup>
       <Compile Update="Form1.cs" />

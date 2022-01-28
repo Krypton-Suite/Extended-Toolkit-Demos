@@ -1,43 +1,48 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0-Windows</TargetFramework>
-    <LangVersion>preview</LangVersion>
-    <OutputType>WinExe</OutputType>
-    <UseWindowsForms>true</UseWindowsForms>
-    <Configurations>Debug;Release;Nightly;Canary;Stable</Configurations>
-    <ApplicationIcon>Stable.ico</ApplicationIcon>
+	<TargetFramework>net5.0-Windows</TargetFramework>
+	<LangVersion>preview</LangVersion>
+	<OutputType>WinExe</OutputType>
+	<UseWindowsForms>true</UseWindowsForms>
+	<Configurations>Debug;Release;Nightly;Canary;Stable</Configurations>
+	<ApplicationIcon>Stable.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Stable.ico" />
+	<Content Include="Stable.ico" />
+  </ItemGroup>
+
+	<Choose>
+		<When Condition="'$(SolutionName.Endswith(`NuGet`))'">
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Suite.Extended.Buttons.Canary" Version="60.22.1.27-beta" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup>
+				<ProjectReference Include="..\..\..\Extended-Toolkit\Source\Krypton Toolkit\Krypton.Toolkit.Suite.Extended.Buttons\Krypton.Toolkit.Suite.Extended.Buttons 2022.csproj" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
+
+  <ItemGroup>
+	<Reference Include="System.Management" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krypton.Toolkit.Canary" Version="60.22.1.17-beta" />
+	<Compile Update="Properties\Resources.Designer.cs">
+	  <DesignTime>True</DesignTime>
+	  <AutoGen>True</AutoGen>
+	  <DependentUpon>Resources.resx</DependentUpon>
+	</Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.Buttons\Krypton.Toolkit.Suite.Extended.Buttons 2022.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="System.Management" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+	<EmbeddedResource Update="Properties\Resources.resx">
+	  <Generator>ResXFileCodeGenerator</Generator>
+	  <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	</EmbeddedResource>
   </ItemGroup>
 
 </Project>
