@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<OutputType>WinExe</OutputType>
-	<TargetFramework>net48</TargetFramework>
-	<Nullable>enable</Nullable>
-	<UseWindowsForms>true</UseWindowsForms>
-	<Configurations>Debug;Release;Nightly;Canary;Stable</Configurations>
-	<ApplicationIcon>Stable.ico</ApplicationIcon>
+	  <OutputType>WinExe</OutputType>
+	  <TargetFramework>net48</TargetFramework>
+	  <LangVersion>preview</LangVersion>
+	  <Nullable>enable</Nullable>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <Configurations>Debug;Release;Nightly;Canary;Stable</Configurations>
+	  <ApplicationIcon>Stable.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

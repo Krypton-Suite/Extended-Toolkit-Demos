@@ -1,5 +1,6 @@
 ﻿
 using Krypton.Toolkit;
+using Krypton.Toolkit.Suite.Extended.Messagebox;
 
 namespace MessageBox
 {
@@ -12,7 +13,7 @@ namespace MessageBox
 
 		private void kbtnTest_Click(object sender, System.EventArgs e)
 		{
-			//kmbc.DisplayKryptonMessageBox();
+            
 		}
 	}
 }

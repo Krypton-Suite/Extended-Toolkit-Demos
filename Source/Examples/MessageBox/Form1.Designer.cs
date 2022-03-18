@@ -33,6 +33,37 @@ namespace MessageBox
             this.kbtnTest = new Krypton.Toolkit.KryptonButton();
             this.kryptonBorderEdge1 = new Krypton.Toolkit.KryptonBorderEdge();
             this.kryptonPanel2 = new Krypton.Toolkit.KryptonPanel();
+            this.kryptonGroupBox7 = new Krypton.Toolkit.KryptonGroupBox();
+            this.kryptonRadioButton26 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton25 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton24 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonTextBox6 = new Krypton.Toolkit.KryptonTextBox();
+            this.kryptonLabel8 = new Krypton.Toolkit.KryptonLabel();
+            this.kryptonLabel7 = new Krypton.Toolkit.KryptonLabel();
+            this.kryptonCheckBox3 = new Krypton.Toolkit.KryptonCheckBox();
+            this.kryptonCheckBox2 = new Krypton.Toolkit.KryptonCheckBox();
+            this.kryptonGroupBox6 = new Krypton.Toolkit.KryptonGroupBox();
+            this.kryptonCheckBox1 = new Krypton.Toolkit.KryptonCheckBox();
+            this.kryptonComboBox1 = new Krypton.Toolkit.KryptonComboBox();
+            this.kryptonLabel6 = new Krypton.Toolkit.KryptonLabel();
+            this.kryptonGroupBox5 = new Krypton.Toolkit.KryptonGroupBox();
+            this.kryptonRadioButton23 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton22 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton21 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton20 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton19 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton18 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton17 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton16 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton15 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton14 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton13 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton12 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonGroupBox4 = new Krypton.Toolkit.KryptonGroupBox();
+            this.kryptonRadioButton11 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton10 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton9 = new Krypton.Toolkit.KryptonRadioButton();
+            this.kryptonRadioButton8 = new Krypton.Toolkit.KryptonRadioButton();
             this.kryptonGroupBox3 = new Krypton.Toolkit.KryptonGroupBox();
             this.kryptonColorButton3 = new Krypton.Toolkit.KryptonColorButton();
             this.kryptonTextBox5 = new Krypton.Toolkit.KryptonTextBox();
@@ -56,34 +87,27 @@ namespace MessageBox
             this.kryptonLabel2 = new Krypton.Toolkit.KryptonLabel();
             this.kryptonTextBox1 = new Krypton.Toolkit.KryptonTextBox();
             this.kryptonLabel1 = new Krypton.Toolkit.KryptonLabel();
-            this.kmbc = new Krypton.Toolkit.Suite.Extended.Messagebox.KryptonMessageBoxManager();
-            this.kryptonGroupBox4 = new Krypton.Toolkit.KryptonGroupBox();
-            this.kryptonGroupBox5 = new Krypton.Toolkit.KryptonGroupBox();
-            this.kryptonGroupBox6 = new Krypton.Toolkit.KryptonGroupBox();
-            this.kryptonGroupBox7 = new Krypton.Toolkit.KryptonGroupBox();
-            this.kryptonRadioButton8 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton9 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton10 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton11 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton12 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton13 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton14 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton15 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton16 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton17 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton18 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton19 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton20 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton21 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton22 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonRadioButton23 = new Krypton.Toolkit.KryptonRadioButton();
-            this.kryptonLabel6 = new Krypton.Toolkit.KryptonLabel();
-            this.kryptonComboBox1 = new Krypton.Toolkit.KryptonComboBox();
-            this.kryptonCheckBox1 = new Krypton.Toolkit.KryptonCheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel2)).BeginInit();
             this.kryptonPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7.Panel)).BeginInit();
+            this.kryptonGroupBox7.Panel.SuspendLayout();
+            this.kryptonGroupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6.Panel)).BeginInit();
+            this.kryptonGroupBox6.Panel.SuspendLayout();
+            this.kryptonGroupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5.Panel)).BeginInit();
+            this.kryptonGroupBox5.Panel.SuspendLayout();
+            this.kryptonGroupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4.Panel)).BeginInit();
+            this.kryptonGroupBox4.Panel.SuspendLayout();
+            this.kryptonGroupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox3.Panel)).BeginInit();
             this.kryptonGroupBox3.Panel.SuspendLayout();
@@ -96,22 +120,6 @@ namespace MessageBox
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).BeginInit();
             this.kryptonGroupBox1.Panel.SuspendLayout();
             this.kryptonGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4.Panel)).BeginInit();
-            this.kryptonGroupBox4.Panel.SuspendLayout();
-            this.kryptonGroupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5.Panel)).BeginInit();
-            this.kryptonGroupBox5.Panel.SuspendLayout();
-            this.kryptonGroupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6.Panel)).BeginInit();
-            this.kryptonGroupBox6.Panel.SuspendLayout();
-            this.kryptonGroupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7.Panel)).BeginInit();
-            this.kryptonGroupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonPanel1
@@ -158,6 +166,305 @@ namespace MessageBox
             this.kryptonPanel2.Name = "kryptonPanel2";
             this.kryptonPanel2.Size = new System.Drawing.Size(1379, 671);
             this.kryptonPanel2.TabIndex = 2;
+            // 
+            // kryptonGroupBox7
+            // 
+            this.kryptonGroupBox7.Location = new System.Drawing.Point(476, 392);
+            this.kryptonGroupBox7.Name = "kryptonGroupBox7";
+            // 
+            // kryptonGroupBox7.Panel
+            // 
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonRadioButton26);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonRadioButton25);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonRadioButton24);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonTextBox6);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonLabel8);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonLabel7);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonCheckBox3);
+            this.kryptonGroupBox7.Panel.Controls.Add(this.kryptonCheckBox2);
+            this.kryptonGroupBox7.Size = new System.Drawing.Size(457, 201);
+            this.kryptonGroupBox7.TabIndex = 6;
+            this.kryptonGroupBox7.Values.Heading = "CheckBox Options";
+            // 
+            // kryptonRadioButton26
+            // 
+            this.kryptonRadioButton26.Location = new System.Drawing.Point(93, 70);
+            this.kryptonRadioButton26.Name = "kryptonRadioButton26";
+            this.kryptonRadioButton26.Size = new System.Drawing.Size(92, 20);
+            this.kryptonRadioButton26.TabIndex = 7;
+            this.kryptonRadioButton26.Values.Text = "&Intermediate";
+            // 
+            // kryptonRadioButton25
+            // 
+            this.kryptonRadioButton25.Location = new System.Drawing.Point(191, 69);
+            this.kryptonRadioButton25.Name = "kryptonRadioButton25";
+            this.kryptonRadioButton25.Size = new System.Drawing.Size(83, 20);
+            this.kryptonRadioButton25.TabIndex = 6;
+            this.kryptonRadioButton25.Values.Text = "&Unchecked";
+            // 
+            // kryptonRadioButton24
+            // 
+            this.kryptonRadioButton24.Location = new System.Drawing.Point(18, 69);
+            this.kryptonRadioButton24.Name = "kryptonRadioButton24";
+            this.kryptonRadioButton24.Size = new System.Drawing.Size(69, 20);
+            this.kryptonRadioButton24.TabIndex = 5;
+            this.kryptonRadioButton24.Values.Text = "Ch&ecked";
+            // 
+            // kryptonTextBox6
+            // 
+            this.kryptonTextBox6.CueHint.CueHintText = "Type optional text here...";
+            this.kryptonTextBox6.CueHint.Padding = new System.Windows.Forms.Padding(0);
+            this.kryptonTextBox6.Location = new System.Drawing.Point(18, 123);
+            this.kryptonTextBox6.Name = "kryptonTextBox6";
+            this.kryptonTextBox6.Size = new System.Drawing.Size(422, 23);
+            this.kryptonTextBox6.TabIndex = 4;
+            // 
+            // kryptonLabel8
+            // 
+            this.kryptonLabel8.LabelStyle = Krypton.Toolkit.LabelStyle.BoldControl;
+            this.kryptonLabel8.Location = new System.Drawing.Point(18, 96);
+            this.kryptonLabel8.Name = "kryptonLabel8";
+            this.kryptonLabel8.Size = new System.Drawing.Size(154, 20);
+            this.kryptonLabel8.TabIndex = 3;
+            this.kryptonLabel8.Values.Text = "Optional CheckBox Text:";
+            // 
+            // kryptonLabel7
+            // 
+            this.kryptonLabel7.LabelStyle = Krypton.Toolkit.LabelStyle.BoldControl;
+            this.kryptonLabel7.Location = new System.Drawing.Point(18, 42);
+            this.kryptonLabel7.Name = "kryptonLabel7";
+            this.kryptonLabel7.Size = new System.Drawing.Size(193, 20);
+            this.kryptonLabel7.TabIndex = 2;
+            this.kryptonLabel7.Values.Text = "Optional CheckBox CheckState:";
+            // 
+            // kryptonCheckBox3
+            // 
+            this.kryptonCheckBox3.Location = new System.Drawing.Point(185, 15);
+            this.kryptonCheckBox3.Name = "kryptonCheckBox3";
+            this.kryptonCheckBox3.Size = new System.Drawing.Size(189, 20);
+            this.kryptonCheckBox3.TabIndex = 1;
+            this.kryptonCheckBox3.Values.Text = "Is &Optional CheckBox Checked";
+            // 
+            // kryptonCheckBox2
+            // 
+            this.kryptonCheckBox2.Location = new System.Drawing.Point(18, 15);
+            this.kryptonCheckBox2.Name = "kryptonCheckBox2";
+            this.kryptonCheckBox2.Size = new System.Drawing.Size(160, 20);
+            this.kryptonCheckBox2.TabIndex = 0;
+            this.kryptonCheckBox2.Values.Text = "Show Optional &CheckBox";
+            // 
+            // kryptonGroupBox6
+            // 
+            this.kryptonGroupBox6.Location = new System.Drawing.Point(476, 180);
+            this.kryptonGroupBox6.Name = "kryptonGroupBox6";
+            // 
+            // kryptonGroupBox6.Panel
+            // 
+            this.kryptonGroupBox6.Panel.Controls.Add(this.kryptonCheckBox1);
+            this.kryptonGroupBox6.Panel.Controls.Add(this.kryptonComboBox1);
+            this.kryptonGroupBox6.Panel.Controls.Add(this.kryptonLabel6);
+            this.kryptonGroupBox6.Size = new System.Drawing.Size(457, 150);
+            this.kryptonGroupBox6.TabIndex = 5;
+            this.kryptonGroupBox6.Values.Heading = "Miscellaneous Options";
+            // 
+            // kryptonCheckBox1
+            // 
+            this.kryptonCheckBox1.Location = new System.Drawing.Point(253, 13);
+            this.kryptonCheckBox1.Name = "kryptonCheckBox1";
+            this.kryptonCheckBox1.Size = new System.Drawing.Size(110, 20);
+            this.kryptonCheckBox1.TabIndex = 2;
+            this.kryptonCheckBox1.Values.Text = "Show \'&CtrlCopy\'";
+            // 
+            // kryptonComboBox1
+            // 
+            this.kryptonComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.kryptonComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.kryptonComboBox1.DropDownWidth = 121;
+            this.kryptonComboBox1.IntegralHeight = false;
+            this.kryptonComboBox1.Items.AddRange(new object[] {
+            "Button1",
+            "Button2",
+            "Button3"});
+            this.kryptonComboBox1.Location = new System.Drawing.Point(125, 13);
+            this.kryptonComboBox1.Name = "kryptonComboBox1";
+            this.kryptonComboBox1.Size = new System.Drawing.Size(121, 21);
+            this.kryptonComboBox1.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
+            this.kryptonComboBox1.TabIndex = 1;
+            // 
+            // kryptonLabel6
+            // 
+            this.kryptonLabel6.LabelStyle = Krypton.Toolkit.LabelStyle.BoldControl;
+            this.kryptonLabel6.Location = new System.Drawing.Point(18, 13);
+            this.kryptonLabel6.Name = "kryptonLabel6";
+            this.kryptonLabel6.Size = new System.Drawing.Size(100, 20);
+            this.kryptonLabel6.TabIndex = 0;
+            this.kryptonLabel6.Values.Text = "Default Button:";
+            // 
+            // kryptonGroupBox5
+            // 
+            this.kryptonGroupBox5.Location = new System.Drawing.Point(476, 24);
+            this.kryptonGroupBox5.Name = "kryptonGroupBox5";
+            // 
+            // kryptonGroupBox5.Panel
+            // 
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton23);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton22);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton21);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton20);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton19);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton18);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton17);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton16);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton15);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton14);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton13);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton12);
+            this.kryptonGroupBox5.Size = new System.Drawing.Size(457, 150);
+            this.kryptonGroupBox5.TabIndex = 4;
+            this.kryptonGroupBox5.Values.Heading = "Icon Type";
+            // 
+            // kryptonRadioButton23
+            // 
+            this.kryptonRadioButton23.Location = new System.Drawing.Point(18, 95);
+            this.kryptonRadioButton23.Name = "kryptonRadioButton23";
+            this.kryptonRadioButton23.Size = new System.Drawing.Size(130, 20);
+            this.kryptonRadioButton23.TabIndex = 11;
+            this.kryptonRadioButton23.Values.Text = "&Windows Logo Icon";
+            // 
+            // kryptonRadioButton22
+            // 
+            this.kryptonRadioButton22.Location = new System.Drawing.Point(239, 69);
+            this.kryptonRadioButton22.Name = "kryptonRadioButton22";
+            this.kryptonRadioButton22.Size = new System.Drawing.Size(82, 20);
+            this.kryptonRadioButton22.TabIndex = 10;
+            this.kryptonRadioButton22.Values.Text = "Shi&eld Icon";
+            // 
+            // kryptonRadioButton21
+            // 
+            this.kryptonRadioButton21.Location = new System.Drawing.Point(120, 69);
+            this.kryptonRadioButton21.Name = "kryptonRadioButton21";
+            this.kryptonRadioButton21.Size = new System.Drawing.Size(113, 20);
+            this.kryptonRadioButton21.TabIndex = 9;
+            this.kryptonRadioButton21.Values.Text = "In&formation Icon";
+            // 
+            // kryptonRadioButton20
+            // 
+            this.kryptonRadioButton20.Location = new System.Drawing.Point(18, 69);
+            this.kryptonRadioButton20.Name = "kryptonRadioButton20";
+            this.kryptonRadioButton20.Size = new System.Drawing.Size(96, 20);
+            this.kryptonRadioButton20.TabIndex = 8;
+            this.kryptonRadioButton20.Values.Text = "&Warning Icon";
+            // 
+            // kryptonRadioButton19
+            // 
+            this.kryptonRadioButton19.Location = new System.Drawing.Point(316, 42);
+            this.kryptonRadioButton19.Name = "kryptonRadioButton19";
+            this.kryptonRadioButton19.Size = new System.Drawing.Size(75, 20);
+            this.kryptonRadioButton19.TabIndex = 7;
+            this.kryptonRadioButton19.Values.Text = "Er&ror Icon";
+            // 
+            // kryptonRadioButton18
+            // 
+            this.kryptonRadioButton18.Location = new System.Drawing.Point(236, 42);
+            this.kryptonRadioButton18.Name = "kryptonRadioButton18";
+            this.kryptonRadioButton18.Size = new System.Drawing.Size(74, 20);
+            this.kryptonRadioButton18.TabIndex = 6;
+            this.kryptonRadioButton18.Values.Text = "Sto&p Icon";
+            // 
+            // kryptonRadioButton17
+            // 
+            this.kryptonRadioButton17.Location = new System.Drawing.Point(138, 43);
+            this.kryptonRadioButton17.Name = "kryptonRadioButton17";
+            this.kryptonRadioButton17.Size = new System.Drawing.Size(92, 20);
+            this.kryptonRadioButton17.TabIndex = 5;
+            this.kryptonRadioButton17.Values.Text = "Aster&isk Icon";
+            // 
+            // kryptonRadioButton16
+            // 
+            this.kryptonRadioButton16.Location = new System.Drawing.Point(18, 43);
+            this.kryptonRadioButton16.Name = "kryptonRadioButton16";
+            this.kryptonRadioButton16.Size = new System.Drawing.Size(114, 20);
+            this.kryptonRadioButton16.TabIndex = 4;
+            this.kryptonRadioButton16.Values.Text = "Ex&clamation Icon";
+            // 
+            // kryptonRadioButton15
+            // 
+            this.kryptonRadioButton15.Location = new System.Drawing.Point(271, 16);
+            this.kryptonRadioButton15.Name = "kryptonRadioButton15";
+            this.kryptonRadioButton15.Size = new System.Drawing.Size(99, 20);
+            this.kryptonRadioButton15.TabIndex = 3;
+            this.kryptonRadioButton15.Values.Text = "Q&uestion Icon";
+            // 
+            // kryptonRadioButton14
+            // 
+            this.kryptonRadioButton14.Location = new System.Drawing.Point(187, 16);
+            this.kryptonRadioButton14.Name = "kryptonRadioButton14";
+            this.kryptonRadioButton14.Size = new System.Drawing.Size(78, 20);
+            this.kryptonRadioButton14.TabIndex = 2;
+            this.kryptonRadioButton14.Values.Text = "H&and Icon";
+            // 
+            // kryptonRadioButton13
+            // 
+            this.kryptonRadioButton13.Location = new System.Drawing.Point(115, 16);
+            this.kryptonRadioButton13.Name = "kryptonRadioButton13";
+            this.kryptonRadioButton13.Size = new System.Drawing.Size(66, 20);
+            this.kryptonRadioButton13.TabIndex = 1;
+            this.kryptonRadioButton13.Values.Text = "&No Icon";
+            // 
+            // kryptonRadioButton12
+            // 
+            this.kryptonRadioButton12.Location = new System.Drawing.Point(18, 16);
+            this.kryptonRadioButton12.Name = "kryptonRadioButton12";
+            this.kryptonRadioButton12.Size = new System.Drawing.Size(91, 20);
+            this.kryptonRadioButton12.TabIndex = 0;
+            this.kryptonRadioButton12.Values.Text = "&Custom Icon";
+            // 
+            // kryptonGroupBox4
+            // 
+            this.kryptonGroupBox4.Location = new System.Drawing.Point(13, 510);
+            this.kryptonGroupBox4.Name = "kryptonGroupBox4";
+            // 
+            // kryptonGroupBox4.Panel
+            // 
+            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton11);
+            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton10);
+            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton9);
+            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton8);
+            this.kryptonGroupBox4.Size = new System.Drawing.Size(457, 83);
+            this.kryptonGroupBox4.TabIndex = 3;
+            this.kryptonGroupBox4.Values.Heading = "Custom Button Options";
+            // 
+            // kryptonRadioButton11
+            // 
+            this.kryptonRadioButton11.Location = new System.Drawing.Point(293, 19);
+            this.kryptonRadioButton11.Name = "kryptonRadioButton11";
+            this.kryptonRadioButton11.Size = new System.Drawing.Size(99, 20);
+            this.kryptonRadioButton11.TabIndex = 3;
+            this.kryptonRadioButton11.Values.Text = "Thr&ee Buttons";
+            // 
+            // kryptonRadioButton10
+            // 
+            this.kryptonRadioButton10.Location = new System.Drawing.Point(197, 19);
+            this.kryptonRadioButton10.Name = "kryptonRadioButton10";
+            this.kryptonRadioButton10.Size = new System.Drawing.Size(90, 20);
+            this.kryptonRadioButton10.TabIndex = 2;
+            this.kryptonRadioButton10.Values.Text = "T&wo Buttons";
+            // 
+            // kryptonRadioButton9
+            // 
+            this.kryptonRadioButton9.Location = new System.Drawing.Point(106, 19);
+            this.kryptonRadioButton9.Name = "kryptonRadioButton9";
+            this.kryptonRadioButton9.Size = new System.Drawing.Size(85, 20);
+            this.kryptonRadioButton9.TabIndex = 1;
+            this.kryptonRadioButton9.Values.Text = "O&ne Button";
+            // 
+            // kryptonRadioButton8
+            // 
+            this.kryptonRadioButton8.Location = new System.Drawing.Point(16, 19);
+            this.kryptonRadioButton8.Name = "kryptonRadioButton8";
+            this.kryptonRadioButton8.Size = new System.Drawing.Size(84, 20);
+            this.kryptonRadioButton8.TabIndex = 0;
+            this.kryptonRadioButton8.Values.Text = "&No Buttons";
             // 
             // kryptonGroupBox3
             // 
@@ -379,257 +686,6 @@ namespace MessageBox
             this.kryptonLabel1.TabIndex = 0;
             this.kryptonLabel1.Values.Text = "Caption:";
             // 
-            // kmbc
-            // 
-            this.kmbc.ButtonOneCustomText = "Does";
-            this.kmbc.ButtonOneTextColour = System.Drawing.Color.Empty;
-            this.kmbc.ButtonThreeCustomText = "Work?";
-            this.kmbc.ButtonThreeTextColour = System.Drawing.Color.Empty;
-            this.kmbc.ButtonTwoCustomText = "This";
-            this.kmbc.ButtonTwoTextColour = System.Drawing.Color.Empty;
-            this.kmbc.ContentMessageColour = System.Drawing.Color.Empty;
-            this.kmbc.CustomButtonOneResult = System.Windows.Forms.DialogResult.OK;
-            this.kmbc.CustomButtonOptions = Krypton.Toolkit.Suite.Extended.Messagebox.ExtendedMessageBoxCustomButtonOptions.NONE;
-            this.kmbc.CustomButtonThreeResult = System.Windows.Forms.DialogResult.None;
-            this.kmbc.CustomButtonTwoResult = System.Windows.Forms.DialogResult.None;
-            this.kmbc.Fade = true;
-            this.kmbc.HelpNavigator = System.Windows.Forms.HelpNavigator.AssociateIndex;
-            this.kmbc.MessageBoxButtons = Krypton.Toolkit.Suite.Extended.Messagebox.ExtendedMessageBoxButtons.CUSTOM;
-            this.kmbc.MessageBoxContentText = "kryptonMessageBoxConfigurator1";
-            this.kmbc.MessageBoxDefaultButton = System.Windows.Forms.MessageBoxDefaultButton.Button1;
-            this.kmbc.MessageBoxIcon = Krypton.Toolkit.Suite.Extended.Messagebox.ExtendedKryptonMessageBoxIcon.NONE;
-            this.kmbc.MessageBoxTypeface = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.kmbc.NoButtonColour = System.Drawing.Color.Red;
-            this.kmbc.OptionalCheckBoxAnchor = System.Windows.Forms.AnchorStyles.Left;
-            this.kmbc.OptionalCheckBoxCheckState = System.Windows.Forms.CheckState.Unchecked;
-            this.kmbc.OptionalCheckBoxText = "122222222222222222222222222222222222222222222222222";
-            this.kmbc.ShowOptionalCheckBox = true;
-            this.kmbc.TextColour = System.Drawing.Color.Empty;
-            this.kmbc.TimeOut = 0;
-            this.kmbc.UseYesNoCancelButtonColour = true;
-            this.kmbc.YesButtonColour = System.Drawing.Color.Green;
-            this.kmbc.YesNoButtonTextColour = System.Drawing.Color.White;
-            // 
-            // kryptonGroupBox4
-            // 
-            this.kryptonGroupBox4.Location = new System.Drawing.Point(13, 510);
-            this.kryptonGroupBox4.Name = "kryptonGroupBox4";
-            // 
-            // kryptonGroupBox4.Panel
-            // 
-            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton11);
-            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton10);
-            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton9);
-            this.kryptonGroupBox4.Panel.Controls.Add(this.kryptonRadioButton8);
-            this.kryptonGroupBox4.Size = new System.Drawing.Size(457, 83);
-            this.kryptonGroupBox4.TabIndex = 3;
-            this.kryptonGroupBox4.Values.Heading = "Custom Button Options";
-            // 
-            // kryptonGroupBox5
-            // 
-            this.kryptonGroupBox5.Location = new System.Drawing.Point(476, 24);
-            this.kryptonGroupBox5.Name = "kryptonGroupBox5";
-            // 
-            // kryptonGroupBox5.Panel
-            // 
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton23);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton22);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton21);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton20);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton19);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton18);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton17);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton16);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton15);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton14);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton13);
-            this.kryptonGroupBox5.Panel.Controls.Add(this.kryptonRadioButton12);
-            this.kryptonGroupBox5.Size = new System.Drawing.Size(457, 150);
-            this.kryptonGroupBox5.TabIndex = 4;
-            this.kryptonGroupBox5.Values.Heading = "Icon Type";
-            // 
-            // kryptonGroupBox6
-            // 
-            this.kryptonGroupBox6.Location = new System.Drawing.Point(476, 180);
-            this.kryptonGroupBox6.Name = "kryptonGroupBox6";
-            // 
-            // kryptonGroupBox6.Panel
-            // 
-            this.kryptonGroupBox6.Panel.Controls.Add(this.kryptonCheckBox1);
-            this.kryptonGroupBox6.Panel.Controls.Add(this.kryptonComboBox1);
-            this.kryptonGroupBox6.Panel.Controls.Add(this.kryptonLabel6);
-            this.kryptonGroupBox6.Size = new System.Drawing.Size(457, 150);
-            this.kryptonGroupBox6.TabIndex = 5;
-            this.kryptonGroupBox6.Values.Heading = "Miscellaneous Options";
-            // 
-            // kryptonGroupBox7
-            // 
-            this.kryptonGroupBox7.Location = new System.Drawing.Point(476, 392);
-            this.kryptonGroupBox7.Name = "kryptonGroupBox7";
-            this.kryptonGroupBox7.Size = new System.Drawing.Size(457, 150);
-            this.kryptonGroupBox7.TabIndex = 6;
-            // 
-            // kryptonRadioButton8
-            // 
-            this.kryptonRadioButton8.Location = new System.Drawing.Point(16, 19);
-            this.kryptonRadioButton8.Name = "kryptonRadioButton8";
-            this.kryptonRadioButton8.Size = new System.Drawing.Size(84, 20);
-            this.kryptonRadioButton8.TabIndex = 0;
-            this.kryptonRadioButton8.Values.Text = "&No Buttons";
-            // 
-            // kryptonRadioButton9
-            // 
-            this.kryptonRadioButton9.Location = new System.Drawing.Point(106, 19);
-            this.kryptonRadioButton9.Name = "kryptonRadioButton9";
-            this.kryptonRadioButton9.Size = new System.Drawing.Size(85, 20);
-            this.kryptonRadioButton9.TabIndex = 1;
-            this.kryptonRadioButton9.Values.Text = "O&ne Button";
-            // 
-            // kryptonRadioButton10
-            // 
-            this.kryptonRadioButton10.Location = new System.Drawing.Point(197, 19);
-            this.kryptonRadioButton10.Name = "kryptonRadioButton10";
-            this.kryptonRadioButton10.Size = new System.Drawing.Size(90, 20);
-            this.kryptonRadioButton10.TabIndex = 2;
-            this.kryptonRadioButton10.Values.Text = "T&wo Buttons";
-            // 
-            // kryptonRadioButton11
-            // 
-            this.kryptonRadioButton11.Location = new System.Drawing.Point(293, 19);
-            this.kryptonRadioButton11.Name = "kryptonRadioButton11";
-            this.kryptonRadioButton11.Size = new System.Drawing.Size(99, 20);
-            this.kryptonRadioButton11.TabIndex = 3;
-            this.kryptonRadioButton11.Values.Text = "Thr&ee Buttons";
-            // 
-            // kryptonRadioButton12
-            // 
-            this.kryptonRadioButton12.Location = new System.Drawing.Point(18, 16);
-            this.kryptonRadioButton12.Name = "kryptonRadioButton12";
-            this.kryptonRadioButton12.Size = new System.Drawing.Size(91, 20);
-            this.kryptonRadioButton12.TabIndex = 0;
-            this.kryptonRadioButton12.Values.Text = "&Custom Icon";
-            // 
-            // kryptonRadioButton13
-            // 
-            this.kryptonRadioButton13.Location = new System.Drawing.Point(115, 16);
-            this.kryptonRadioButton13.Name = "kryptonRadioButton13";
-            this.kryptonRadioButton13.Size = new System.Drawing.Size(66, 20);
-            this.kryptonRadioButton13.TabIndex = 1;
-            this.kryptonRadioButton13.Values.Text = "&No Icon";
-            // 
-            // kryptonRadioButton14
-            // 
-            this.kryptonRadioButton14.Location = new System.Drawing.Point(187, 16);
-            this.kryptonRadioButton14.Name = "kryptonRadioButton14";
-            this.kryptonRadioButton14.Size = new System.Drawing.Size(78, 20);
-            this.kryptonRadioButton14.TabIndex = 2;
-            this.kryptonRadioButton14.Values.Text = "H&and Icon";
-            // 
-            // kryptonRadioButton15
-            // 
-            this.kryptonRadioButton15.Location = new System.Drawing.Point(271, 16);
-            this.kryptonRadioButton15.Name = "kryptonRadioButton15";
-            this.kryptonRadioButton15.Size = new System.Drawing.Size(99, 20);
-            this.kryptonRadioButton15.TabIndex = 3;
-            this.kryptonRadioButton15.Values.Text = "Q&uestion Icon";
-            // 
-            // kryptonRadioButton16
-            // 
-            this.kryptonRadioButton16.Location = new System.Drawing.Point(18, 43);
-            this.kryptonRadioButton16.Name = "kryptonRadioButton16";
-            this.kryptonRadioButton16.Size = new System.Drawing.Size(114, 20);
-            this.kryptonRadioButton16.TabIndex = 4;
-            this.kryptonRadioButton16.Values.Text = "Ex&clamation Icon";
-            // 
-            // kryptonRadioButton17
-            // 
-            this.kryptonRadioButton17.Location = new System.Drawing.Point(138, 43);
-            this.kryptonRadioButton17.Name = "kryptonRadioButton17";
-            this.kryptonRadioButton17.Size = new System.Drawing.Size(92, 20);
-            this.kryptonRadioButton17.TabIndex = 5;
-            this.kryptonRadioButton17.Values.Text = "Aster&isk Icon";
-            // 
-            // kryptonRadioButton18
-            // 
-            this.kryptonRadioButton18.Location = new System.Drawing.Point(236, 42);
-            this.kryptonRadioButton18.Name = "kryptonRadioButton18";
-            this.kryptonRadioButton18.Size = new System.Drawing.Size(74, 20);
-            this.kryptonRadioButton18.TabIndex = 6;
-            this.kryptonRadioButton18.Values.Text = "Sto&p Icon";
-            // 
-            // kryptonRadioButton19
-            // 
-            this.kryptonRadioButton19.Location = new System.Drawing.Point(316, 42);
-            this.kryptonRadioButton19.Name = "kryptonRadioButton19";
-            this.kryptonRadioButton19.Size = new System.Drawing.Size(75, 20);
-            this.kryptonRadioButton19.TabIndex = 7;
-            this.kryptonRadioButton19.Values.Text = "Er&ror Icon";
-            // 
-            // kryptonRadioButton20
-            // 
-            this.kryptonRadioButton20.Location = new System.Drawing.Point(18, 69);
-            this.kryptonRadioButton20.Name = "kryptonRadioButton20";
-            this.kryptonRadioButton20.Size = new System.Drawing.Size(96, 20);
-            this.kryptonRadioButton20.TabIndex = 8;
-            this.kryptonRadioButton20.Values.Text = "&Warning Icon";
-            // 
-            // kryptonRadioButton21
-            // 
-            this.kryptonRadioButton21.Location = new System.Drawing.Point(120, 69);
-            this.kryptonRadioButton21.Name = "kryptonRadioButton21";
-            this.kryptonRadioButton21.Size = new System.Drawing.Size(113, 20);
-            this.kryptonRadioButton21.TabIndex = 9;
-            this.kryptonRadioButton21.Values.Text = "In&formation Icon";
-            // 
-            // kryptonRadioButton22
-            // 
-            this.kryptonRadioButton22.Location = new System.Drawing.Point(239, 69);
-            this.kryptonRadioButton22.Name = "kryptonRadioButton22";
-            this.kryptonRadioButton22.Size = new System.Drawing.Size(82, 20);
-            this.kryptonRadioButton22.TabIndex = 10;
-            this.kryptonRadioButton22.Values.Text = "Shi&eld Icon";
-            // 
-            // kryptonRadioButton23
-            // 
-            this.kryptonRadioButton23.Location = new System.Drawing.Point(18, 95);
-            this.kryptonRadioButton23.Name = "kryptonRadioButton23";
-            this.kryptonRadioButton23.Size = new System.Drawing.Size(130, 20);
-            this.kryptonRadioButton23.TabIndex = 11;
-            this.kryptonRadioButton23.Values.Text = "&Windows Logo Icon";
-            // 
-            // kryptonLabel6
-            // 
-            this.kryptonLabel6.LabelStyle = Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel6.Location = new System.Drawing.Point(18, 13);
-            this.kryptonLabel6.Name = "kryptonLabel6";
-            this.kryptonLabel6.Size = new System.Drawing.Size(100, 20);
-            this.kryptonLabel6.TabIndex = 0;
-            this.kryptonLabel6.Values.Text = "Default Button:";
-            // 
-            // kryptonComboBox1
-            // 
-            this.kryptonComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.kryptonComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.kryptonComboBox1.DropDownWidth = 121;
-            this.kryptonComboBox1.IntegralHeight = false;
-            this.kryptonComboBox1.Items.AddRange(new object[] {
-            "Button1",
-            "Button2",
-            "Button3"});
-            this.kryptonComboBox1.Location = new System.Drawing.Point(125, 13);
-            this.kryptonComboBox1.Name = "kryptonComboBox1";
-            this.kryptonComboBox1.Size = new System.Drawing.Size(121, 21);
-            this.kryptonComboBox1.StateCommon.ComboBox.Content.TextH = Krypton.Toolkit.PaletteRelativeAlign.Near;
-            this.kryptonComboBox1.TabIndex = 1;
-            // 
-            // kryptonCheckBox1
-            // 
-            this.kryptonCheckBox1.Location = new System.Drawing.Point(253, 13);
-            this.kryptonCheckBox1.Name = "kryptonCheckBox1";
-            this.kryptonCheckBox1.Size = new System.Drawing.Size(110, 20);
-            this.kryptonCheckBox1.TabIndex = 2;
-            this.kryptonCheckBox1.Values.Text = "Show \'&CtrlCopy\'";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -647,6 +703,27 @@ namespace MessageBox
             this.kryptonPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel2)).EndInit();
             this.kryptonPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7.Panel)).EndInit();
+            this.kryptonGroupBox7.Panel.ResumeLayout(false);
+            this.kryptonGroupBox7.Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7)).EndInit();
+            this.kryptonGroupBox7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6.Panel)).EndInit();
+            this.kryptonGroupBox6.Panel.ResumeLayout(false);
+            this.kryptonGroupBox6.Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6)).EndInit();
+            this.kryptonGroupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5.Panel)).EndInit();
+            this.kryptonGroupBox5.Panel.ResumeLayout(false);
+            this.kryptonGroupBox5.Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5)).EndInit();
+            this.kryptonGroupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4.Panel)).EndInit();
+            this.kryptonGroupBox4.Panel.ResumeLayout(false);
+            this.kryptonGroupBox4.Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4)).EndInit();
+            this.kryptonGroupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox3.Panel)).EndInit();
             this.kryptonGroupBox3.Panel.ResumeLayout(false);
             this.kryptonGroupBox3.Panel.PerformLayout();
@@ -662,25 +739,6 @@ namespace MessageBox
             this.kryptonGroupBox1.Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).EndInit();
             this.kryptonGroupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4.Panel)).EndInit();
-            this.kryptonGroupBox4.Panel.ResumeLayout(false);
-            this.kryptonGroupBox4.Panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4)).EndInit();
-            this.kryptonGroupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5.Panel)).EndInit();
-            this.kryptonGroupBox5.Panel.ResumeLayout(false);
-            this.kryptonGroupBox5.Panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5)).EndInit();
-            this.kryptonGroupBox5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6.Panel)).EndInit();
-            this.kryptonGroupBox6.Panel.ResumeLayout(false);
-            this.kryptonGroupBox6.Panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox6)).EndInit();
-            this.kryptonGroupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7.Panel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox7)).EndInit();
-            this.kryptonGroupBox7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonComboBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -689,7 +747,6 @@ namespace MessageBox
 
         private Krypton.Toolkit.KryptonPanel kryptonPanel1;
         private Krypton.Toolkit.KryptonPanel kryptonPanel2;
-        private Krypton.Toolkit.Suite.Extended.Messagebox.KryptonMessageBoxManager kmbc;
 		private Krypton.Toolkit.KryptonButton kbtnTest;
 		private Krypton.Toolkit.KryptonBorderEdge kryptonBorderEdge1;
 		private Krypton.Toolkit.KryptonGroupBox kryptonGroupBox1;
@@ -738,6 +795,14 @@ namespace MessageBox
         private Krypton.Toolkit.KryptonCheckBox kryptonCheckBox1;
         private Krypton.Toolkit.KryptonComboBox kryptonComboBox1;
         private Krypton.Toolkit.KryptonLabel kryptonLabel6;
+        private Krypton.Toolkit.KryptonTextBox kryptonTextBox6;
+        private Krypton.Toolkit.KryptonLabel kryptonLabel8;
+        private Krypton.Toolkit.KryptonLabel kryptonLabel7;
+        private Krypton.Toolkit.KryptonCheckBox kryptonCheckBox3;
+        private Krypton.Toolkit.KryptonCheckBox kryptonCheckBox2;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton26;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton25;
+        private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton24;
     }
 }
 

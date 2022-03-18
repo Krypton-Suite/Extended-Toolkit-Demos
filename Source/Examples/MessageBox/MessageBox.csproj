@@ -15,9 +15,18 @@
 
 	<Choose>
 		<When Condition="'$(SolutionName.Endswith(`NuGet`))'">
-			<ItemGroup>
-				<PackageReference Include="Krypton.Toolkit.Suite.Extended.Messagebox.Canary" Version="60.22.1.27-beta" />
-			</ItemGroup>
+			<Choose>
+				<When Condition="'$(Configuration)' == 'Nightly'">
+					<ItemGroup>
+						<PackageReference Include="Krypton.Toolkit.Suite.Extended.Messagebox.Nightly" Version="60.22.3.73-alpha" />
+					</ItemGroup>
+				</When>
+				<Otherwise>
+					<ItemGroup>
+						<PackageReference Include="Krypton.Toolkit.Suite.Extended.Messagebox.Canary" Version="65.22.3.76-beta" />
+					</ItemGroup>
+				</Otherwise>
+			</Choose>
 		</When>
 		<Otherwise>
 			<ItemGroup>
