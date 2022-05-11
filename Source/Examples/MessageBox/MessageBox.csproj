@@ -30,10 +30,13 @@
 		</When>
 		<Otherwise>
 			<ItemGroup>
-				<ProjectReference Include="..\..\Krypton.Toolkit.Suite.Extended.Messagebox\Krypton.Toolkit.Suite.Extended.Messagebox 2022.csproj" />
+				<ProjectReference Include="..\..\..\..\Standard-Toolkit\Source\Krypton Components\Krypton.Toolkit\Krypton.Toolkit 2022.csproj" />
+                
+				<ProjectReference Include="..\..\..\..\Extended-Toolkit\Source\Krypton Toolkit\Krypton.Toolkit.Suite.Extended.Messagebox\Krypton.Toolkit.Suite.Extended.Messagebox 2022.csproj" />
 			</ItemGroup>
 		</Otherwise>
 	</Choose>
+
 
     <ItemGroup>
         <Compile Update="Properties\Resources.Designer.cs">
